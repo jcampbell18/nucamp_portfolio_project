@@ -1,0 +1,234 @@
+/* Palette 
+#314833 -> dark green
+#F0A428 -> mustard yellow
+#B06537 -> orange
+#ECE5D8 -> creme white
+#1F1809 -> not quite black
+*/
+
+body {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  background: white;
+  color: black;
+  font-family: Calibri, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.625em;
+  font-weight: 600;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+}
+
+#container {
+  background: #314833;
+  color: #f0a428;
+  margin: 0.5em;
+  border: 1px solid #314833;
+  border-radius: 12px;
+}
+
+header {
+  height: 100%;
+  max-height: 65px;
+  padding: 1em 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-container {
+  width: 40%;
+  padding-left: 1em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 1em;
+}
+
+#header-container img {
+  width: 100%;
+  max-width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-container h1 {
+  background: inherit;
+  color: #ece5d8;
+}
+
+nav li:hover {
+  background: #f0a428;
+  color: black;
+  border-radius: 14px;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ece5d8;
+}
+
+.navbar-nav .nav-link.active:hover {
+  color: black;
+}
+
+nav li > a:hover {
+  color: black;
+  font-weight: 600;
+}
+
+main {
+
+}
+
+main > section {
+
+}
+
+section h2 {
+}
+
+section p {
+}
+
+section#about {
+  background: #ece5d8;
+  color: #1f1809;
+}
+
+section#about img {
+    height: 200px;
+}
+
+section#education {
+}
+
+section#education ul {
+  /* display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 1.0em;
+    list-style: none;
+    margin: 0; */
+}
+
+section#education ul li {
+}
+
+section#education ul li:nth-child(1) {
+}
+
+section#experience {
+  background: #f0a428;
+  color: #1f1809;
+}
+
+section#interests {
+  background: #ece5d8;
+  color: #1f1809;
+}
+
+section#contact-me {
+  color: #ece5d8;
+  background: #1f1809;
+}
+
+footer {
+  padding: 1em 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer img {
+}
+
+footer p {
+}
+
+.list-container > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 1.5em;
+  list-style: none;
+  margin: 0;
+  padding-bottom: 1em;
+}
+
+.list-container > ul li {
+  height: 40px;
+  color: #ece5d8;
+}
+
+.list-container > ul li:nth-child(1) {
+  list-style-image: url("../images/chevron-right_orange.svg");
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.hastag-interest {
+  
+}
+
+.contact-container {
+  z-index: 1;
+}
+
+.background-layer {
+  opacity: 0.1;
+  z-index: 2;
+}
+
+/* shapedivider.app */
+.custom-shape-divider-bottom-1708908017 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1708908017 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 25px;
+}
+
+.custom-shape-divider-bottom-1708908017 .shape-fill {
+    fill: #ECE5D8;
+}
+
+@media only screen and (max-width: 865px) {
+    #header-container h1 {
+        font-size: 2.0em;
+    }
+}
