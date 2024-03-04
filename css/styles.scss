@@ -9,7 +9,7 @@ body {
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
-  background: $white;
+  background: white;
   color: $black;
   font-family: Calibri, Arial, sans-serif;
 }
@@ -77,9 +77,6 @@ header {
       background: inherit;
       color: $white;
     }
-  }
-
-  nav {
   }
 }
 
